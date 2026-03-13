@@ -2,87 +2,377 @@ export const navItems = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about-us" },
   { label: "Our Work", href: "/our-work" },
-  { label: "Get Involved", href: "/get-involved" },
-  { label: "Media Centre", href: "/media-centre" },
-  { label: "Contact Us", href: "/contact-us" },
-  { label: "Payment QR", href: "/payment-qr" }
+  { label: "Projects", href: "/projects" },
+  { label: "Impact", href: "/impact" },
+  { label: "Partners", href: "/partners" },
+  { label: "Gallery", href: "/gallery" },
+  // { label: "Media", href: "/media" },
+  // { label: "Get Involved", href: "/get-involved" },
+  { label: "Contact", href: "/contact" },
 ];
+
+export const homeIntro =
+  "Mahila Jagriti Sansthan (MJS) is a grassroots non-governmental organization established in 1993 by Mrs. Indira Kumari with the vision of empowering women and protecting the rights of children and marginalized communities. Registered under the Societies Registration Act, 1860, the organization has worked for over three decades on social justice, education, livelihoods, and community development.";
 
 export const stats = [
   { label: "Years of Service", value: "30+" },
+  { label: "Women Empowered", value: "15,000+" },
   { label: "Children Rescued", value: "3,500+" },
-  { label: "Women Empowered", value: "15,000+" }
+  { label: "Self-Help Groups", value: "1,000+" },
+  { label: "Volunteers", value: "100+" },
 ];
 
-export const programCards = [
+export const aboutOrgIntro =
+  "The organization was established in 1993 and works for women empowerment, child education, human rights, and community development.";
+
+export const aboutJourney = [
+  "The journey of Mahila Jagriti Sansthan began in 1993 with a vision to empower women and protect children in marginalized communities.",
+  "From initial work in Darbhanga and Madhubani, the organization expanded across Bihar through community meetings, awareness campaigns, and grassroots action.",
+  "Today, the mission continues with the same commitment to inclusive development, rights awareness, and social justice.",
+];
+
+export const milestones = [
   {
-    title: "Education",
-    text: "Promoting child education through awareness, access support, and rights-focused programs that break cycles of poverty."
+    year: "1993",
+    title: "Foundation of Mahila Jagriti Sansthan",
+    points: [
+      "Founded by Mrs. Indira Kumari with dedicated social workers.",
+      "Core vision focused on women empowerment and child education.",
+      "Initial work centered on marginalized rural communities in Bihar.",
+    ],
+    detail:
+      "Mahila Jagriti Sansthan was founded by Mrs. Indira Kumari along with a group of dedicated social workers with the vision of empowering women and promoting child education among marginalized communities in rural Bihar.",
   },
   {
-    title: "Livelihood",
-    text: "Building sustainable incomes through skill development, vocational opportunities, and local entrepreneurship support."
+    year: "1996-1998",
+    title: "Early Skill Development Initiatives",
+    points: [
+      "Vocational training launched under TRYSEM and DWCRA.",
+      "Focused on rural women and youth in Darbhanga district.",
+      "Built practical pathways for income generation and self-reliance.",
+    ],
+    detail:
+      "The organization began conducting government-supported training programs that helped women and youth acquire livelihood-oriented skills in the early years of intervention.",
   },
+  {
+    year: "2000",
+    title: "Promotion of Girls' Empowerment",
+    points: [
+      "Balika Mela programs organized with government agencies.",
+      "Encouraged confidence and social participation of girls.",
+      "Promoted continued access to education.",
+    ],
+    detail:
+      "These initiatives highlighted the importance of girls' education in rural communities and built visibility for adolescent leadership and participation.",
+  },
+  {
+    year: "2002",
+    title: "Child Rights and Baal Panchayat Initiative",
+    points: [
+      "Partnership with Bachpan Bachao Andolan.",
+      "Baal Panchayat and Baal Sansad formed in villages.",
+      "Raised awareness against child labour and for child rights.",
+    ],
+    detail:
+      "Children were encouraged to participate in local discussions and leadership activities, creating stronger community support for protection and education.",
+  },
+  {
+    year: "2008-2012",
+    title: "Education Support Programs",
+    points: [
+      "Implemented initiatives under Bihar Education Project.",
+      "Utpreran Kendra learning centers established.",
+      "School enrollment encouraged, especially for girls.",
+    ],
+    detail:
+      "The education support phase improved access to foundational learning and helped reduce barriers to school participation in underserved communities.",
+  },
+  {
+    year: "2014-2015",
+    title: "Environmental Awareness Campaigns",
+    points: [
+      "Participated in NEAC supported by Ministry of Environment.",
+      "Conducted workshops on conservation and sustainability.",
+      "Expanded community awareness on environmental protection.",
+    ],
+    detail:
+      "Environmental education was integrated into field outreach so families could connect livelihoods, health, and long-term sustainability.",
+  },
+  {
+    year: "2015",
+    title: "Youth Skill Development Programs",
+    points: [
+      "Programs delivered with Centum Skill India.",
+      "Training designed to improve employability.",
+      "Youth livelihood opportunities strengthened.",
+    ],
+    detail:
+      "This phase focused on market-relevant skill building to prepare rural youth for income opportunities and career readiness.",
+  },
+  {
+    year: "2017",
+    title: "Flood Relief Campaign",
+    points: [
+      "Relief activities carried out in flood-affected villages.",
+      "Essential supplies distributed to vulnerable families.",
+      "Emergency support coordinated at community level.",
+    ],
+    detail:
+      "The campaign demonstrated MJS's rapid grassroots response model during crises, with direct field engagement in Darbhanga.",
+  },
+  {
+    year: "2019",
+    title: "Girls' Education and Child Protection Campaigns",
+    points: [
+      "Campaigns run with KSCF and Bachpan Bachao Andolan.",
+      "Girls March to School initiative promoted enrollment.",
+      "Legal awareness on child protection was expanded.",
+    ],
+    detail:
+      "Community mobilization efforts encouraged families to prioritize girls' education while strengthening local awareness of child protection systems.",
+  },
+  {
+    year: "2020",
+    title: "COVID-19 Support and Women Skill Programs",
+    points: [
+      "Food, masks, sanitizers, and study materials distributed.",
+      "Support provided to vulnerable families during lockdown.",
+      "Cutting and stitching training run with Nehru Yuva Kendra.",
+    ],
+    detail:
+      "The organization balanced emergency relief with livelihood support, ensuring families received immediate assistance and women retained access to skill pathways.",
+  },
+  {
+    year: "2023",
+    title: "Sustainable Livelihood Programs",
+    points: [
+      "Jute bag making training organized with NABARD.",
+      "Focused on SHG women and eco-friendly enterprise.",
+      "Promoted sustainable income opportunities.",
+    ],
+    detail:
+      "Hands-on production and design training helped women build marketable products and strengthen local entrepreneurship.",
+  },
+  {
+    year: "Today",
+    title: "Continuing the Mission",
+    points: [
+      "30+ years of grassroots experience across Bihar.",
+      "Women empowerment and child rights remain central.",
+      "Community-led inclusive development continues to expand.",
+    ],
+    detail:
+      "Mahila Jagriti Sansthan continues to work with communities, institutions, and partners to build dignity, equality, and long-term social change.",
+  },
+];
+
+export const founderMessage = [
+  "It gives me immense satisfaction to reflect on the journey of Mahila Jagriti Sansthan, which began in 1993 with a simple yet powerful vision to empower women, protect children, and support the most marginalized sections of society.",
+  "As we continue this journey, we remain dedicated to building a society where women are empowered, children are safe and educated, and every individual has the opportunity to live with dignity and hope.",
+];
+
+export const visionText =
+  "To build a just, inclusive, and empowered society where women, children, and marginalized communities live with dignity, equality, and access to education, opportunities, and sustainable livelihoods.";
+
+export const missionText =
+  "The mission of Mahila Jagriti Sansthan is to empower women, protect children's rights, and promote inclusive and sustainable development through education, skill development, legal awareness, advocacy, and community participation.";
+
+export const presenceDistricts = [
+  "Darbhanga",
+  "Madhubani",
+  "Samastipur",
+  "Muzaffarpur",
+  "Patna",
+];
+
+export const teamSections = [
+  {
+    title: "Governing Body",
+    members: [
+      "Founder / Secretary",
+      "President",
+      "Director",
+      "Treasurer",
+      "Board Members",
+    ],
+  },
+  { title: "Legal Team", members: ["Legal Head", "Legal Advisors"] },
+];
+
+export const workAreas = [
   {
     title: "Women Empowerment",
-    text: "Strengthening women's independence through training, confidence-building, and social leadership pathways."
+    text: "Empowering women is at the core of our mission through leadership, financial inclusion, and livelihood opportunities.",
+    initiatives: [
+      "Skill training programs",
+      "SHG development",
+      "Entrepreneurship support",
+    ],
+  },
+  {
+    title: "Child Protection",
+    text: "We protect children from exploitation, abuse, and neglect while promoting safety, rights, and access to education.",
+    initiatives: [
+      "Child labour eradication",
+      "Baal Panchayat",
+      "Child rights awareness",
+    ],
+  },
+  {
+    title: "Education",
+    text: "Education support helps children from marginalized communities stay in school and strengthen foundational learning.",
+    initiatives: [
+      "Free educational support classes",
+      "Educational kit distribution",
+      "School support programs",
+    ],
   },
   {
     title: "Gender Based Violence",
-    text: "Driving prevention, awareness, and response support through field-level engagement and partnerships."
-  }
-];
-
-export const timeline = [
-  {
-    year: "1990",
-    text: "Indira Kumari began social service work focused on women and children in rural communities."
-  },
-  { year: "1993", text: "Mahila Jagriti Sansthan was founded." },
-  {
-    year: "2012-2018",
-    text: "Served as Member, Juvenile Justice Board, supporting child protection and justice outcomes."
+    text: "We provide support, legal awareness, and prevention campaigns for women and girls facing violence and discrimination.",
+    initiatives: [
+      "Support to GBV survivors",
+      "Awareness on women's rights",
+      "Legal awareness programs",
+    ],
   },
   {
-    year: "2020-2023",
-    text: "Served as Member, Child Welfare Committee, safeguarding rights of vulnerable children."
-  }
+    title: "Skill Development & Livelihood",
+    text: "Vocational and livelihood programs strengthen employability and financial independence for women and youth.",
+    initiatives: [
+      "Jute bag making",
+      "Cutting and stitching",
+      "Youth skill training",
+    ],
+  },
+  {
+    title: "Environment & Sustainability",
+    text: "We promote environmental awareness and sustainable community practices for long-term resilience.",
+    initiatives: ["Renewable energy awareness", "Environmental campaigns"],
+  },
+  {
+    title: "Disaster Relief & Community Support",
+    text: "During emergencies, we provide immediate support and relief to affected families and vulnerable communities.",
+    initiatives: ["Flood relief campaigns", "COVID-19 relief support"],
+  },
 ];
 
-export const operationAreas = [
-  "Women empowerment and gender justice",
-  "Child rights, rescue, rehabilitation, and education",
-  "Rural development and community welfare",
-  "Health awareness and social development initiatives"
+export const projectPrograms = [
+  {
+    title: "TRYSEM Training Programs",
+    summary:
+      "Skill development programs under TRYSEM in collaboration with the Government of Bihar to improve livelihood opportunities.",
+  },
+  {
+    title: "Baal Panchayat Initiative (2002)",
+    summary:
+      "Child participation and leadership platform created with Bachpan Bachao Andolan to strengthen child rights awareness.",
+  },
+  {
+    title: "Girls March to School Campaign",
+    summary:
+      "Campaign with Kailash Satyarthi Children's Foundation to encourage girls' education and school continuity.",
+  },
+  {
+    title: "Skill Development Programs",
+    summary:
+      "Training in cutting and stitching, handicrafts, jute products, and vocational skills for women and youth.",
+  },
+  {
+    title: "COVID-19 Relief Campaign",
+    summary:
+      "Emergency distribution of food, masks, sanitizers, and educational materials during the pandemic.",
+  },
+  {
+    title: "Jute Bag Training with NABARD",
+    summary:
+      "Eco-friendly livelihood initiative for SHG women through hands-on jute bag design and production training.",
+  },
 ];
 
-export const partnershipItems = [
+export const impactHighlights = [
+  {
+    title: "30+ Years of Grassroots Service",
+    text: "Since 1993, MJS has built long-term trust with communities and institutions through consistent field engagement.",
+  },
+  {
+    title: "15,000+ Women Empowered",
+    text: "Women have gained practical livelihood skills, economic confidence, and stronger social participation.",
+  },
+  {
+    title: "3,500+ Children Rescued and Protected",
+    text: "Through child rights work and partnerships, children have been supported away from labour and exploitation.",
+  },
+  {
+    title: "Education Support for Marginalized Children",
+    text: "Learning support programs, materials, and awareness drives help children stay in school and improve outcomes.",
+  },
+  {
+    title: "District-Level Community Development",
+    text: "Programs across multiple districts of Bihar support women empowerment, child protection, health, and livelihoods.",
+  },
+  {
+    title: "Disaster and Emergency Response",
+    text: "Flood and pandemic response initiatives delivered urgent support to vulnerable families.",
+  },
+];
+
+export const supportingPartners = [
   "Bachpan Bachao Andolan",
-  "Kailash Satyarthi Children’s Foundation",
-  "Community institutions and grassroots groups"
+  "Kailash Satyarthi Children's Foundation",
+  "NABARD",
+  "Nehru Yuva Kendra",
+  "Government of Bihar",
+  "CEED",
+  "Adore India",
 ];
 
-export const boardFaces = [
-  { role: "Founder / Secretary", name: "Indira Kumari" },
-  { role: "President", name: "Ajit Kumar Mishra" },
-  { role: "Treasurer", name: "Devendar Chaudhary" },
-  { role: "Board Member", name: "Azzmatun Nisha" },
-  { role: "Board Member", name: "Divyanshu Bhushan" },
-  { role: "Board Member", name: "Vishav Raj" }
+export const gallerySections = [
+  "Programs",
+  "Trainings",
+  "Women SHG Meetings",
+  "Campaigns",
+  "Awards",
 ];
 
 export const mediaItems = [
   {
-    title: "Print Media",
-    summary: "Coverage of local and regional initiatives related to child rights and women empowerment.",
-    url: "https://www.mahilajagritisansthan.org"
+    title: "News Coverage",
+    summary:
+      "Coverage of programs, rights campaigns, and community initiatives.",
   },
   {
-    title: "Online Media",
-    summary: "Digital updates, impact stories, and campaign highlights from the organization.",
-    url: "https://www.mahilajagritisansthan.org"
-  }
+    title: "Events",
+    summary:
+      "Milestones, outreach drives, and public awareness events across districts.",
+  },
+  {
+    title: "Reports",
+    summary:
+      "Program documentation, achievements, and implementation highlights.",
+  },
+  {
+    title: "Campaign Photos",
+    summary:
+      "Photo stories from field campaigns, trainings, and community mobilization.",
+  },
 ];
+
+export const getInvolvedItems = [
+  "Donate",
+  "Volunteer / Internship",
+  "Partner With Us",
+  "CSR Collaboration",
+];
+
+export const contactDetails = {
+  address: "H. No.92, Chhapki Paddi, Laxmisagar, Darbhanga-846009",
+  phones: ["9431498549", "9654940376"],
+  email: "mjs357999@gmail.com",
+  mapLabel: "View location on map",
+  mapUrl:
+    "https://www.google.com/maps/search/?api=1&query=H.+No.92,+Chhapki+Paddi,+Laxmisagar,+Darbhanga-846009",
+};
 
 export const paymentDetails = {
   beneficiary: "Mahila Jagriti Sansthan",

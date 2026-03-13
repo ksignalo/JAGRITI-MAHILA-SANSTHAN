@@ -1,0 +1,69 @@
+Website Structure for Mahila Jagriti Sansthan
+Home : DOCS\content\HOME.txt
+About Us : DOCS\content\ABOUT.txt
+Our Work : DOCS\content\OUR_WORK.txt
+Projects : DOCS\content\PROJECTS.txt
+Impact : DOCS\content\IMPACT.txt
+Partners
+Gallery
+Media
+Get Involved
+Contact
+
+
+6. Our Presence
+Map showing districts:
+● Darbhanga
+● Madhubani
+● Samastipur
+● Muzaffarpur
+● Patna
+These are listed in Our Presence section.
+7. Our Team
+Create two sections:
+Governing Body
+● Founder / Secretary
+● President
+● Director
+● Treasurer
+● Board Members
+Legal Team
+● Legal Head
+● Legal Advisors
+These are mentioned on pages showing Governing Body and Legal Team.
+8. Partners & Collaborations
+Logos of:
+● Bachpan Bachao Andolan
+● Kailash Satyarthi Children’s Foundation
+● NABARD
+● Nehru Yuva Kendra
+● Government of Bihar
+● CEED
+● Adore India
+These are listed as Supporting Partners.
+9. Media & Publications
+Include:
+● News coverage
+● Events
+● Reports
+● Campaign photos
+10. Gallery
+Sections:
+● Programs
+● Trainings
+● Women SHG meetings
+● Campaigns
+● Awards
+11. Get Involved
+Include:
+● Donate
+● Volunteer/Internship
+● Partner with us
+● CSR collaboration
+12. Contact Us
+Include:
+● Address: H. No.92, Chhapki Paddi, Laxmisagar, Darbhanga-846009
+● Phone number: 9431498549/9654940376
+● Email: mjs357999@gmail.com
+● Google map
+● Contact form
