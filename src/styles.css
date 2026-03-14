@@ -608,6 +608,49 @@ button,
   font-weight: 700;
 }
 
+.face-card-intro {
+  margin-top: 0.4rem;
+  color: var(--muted) !important;
+  font-weight: 600 !important;
+}
+
+.face-member-list {
+  margin-top: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.face-member-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.9rem 0;
+  border-top: 1px solid rgba(15, 118, 110, 0.12);
+}
+
+.face-member-item:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.face-member-item:last-child {
+  padding-bottom: 0;
+}
+
+.face-role {
+  font-size: 0.77rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.face-name {
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 1.08rem;
+  color: #2d2220;
+}
+
 .payment-wrap {
   grid-template-columns: minmax(220px, 260px) 1fr;
 }

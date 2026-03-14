@@ -306,8 +306,8 @@ function AboutPage() {
       <Section
         id="faces"
         eyebrow="Our Team"
-        title="Governing and Legal Team"
-        subtitle="Structured leadership ensuring accountability, transparency, and mission alignment."
+        title="Leadership and Governing Board"
+        subtitle="The institution is guided by office bearers and board members committed to accountability, service, and community-rooted decision making."
       >
         <div
           ref={teamRef}
@@ -316,9 +316,13 @@ function AboutPage() {
           {teamSections.map((group) => (
             <article key={group.title} className="face-card">
               <h3>{group.title}</h3>
-              <ul className="clean-list">
+              <p className="face-card-intro">{group.description}</p>
+              <ul className="clean-list face-member-list">
                 {group.members.map((member) => (
-                  <li key={member}>{member}</li>
+                  <li key={`${group.title}-${member.name}`} className="face-member-item">
+                    <span className="face-role">{member.role}</span>
+                    <strong className="face-name">{member.name}</strong>
+                  </li>
                 ))}
               </ul>
             </article>

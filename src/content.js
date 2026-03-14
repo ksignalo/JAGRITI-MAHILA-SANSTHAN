@@ -187,16 +187,25 @@ export const presenceDistricts = [
 
 export const teamSections = [
   {
-    title: "Governing Body",
+    title: "Executive Leadership",
+    description:
+      "Core office bearers guiding strategy, accountability, and long-term mission delivery.",
     members: [
-      "Founder / Secretary",
-      "President",
-      "Director",
-      "Treasurer",
-      "Board Members",
+      { role: "Founder / Secretary", name: "Indira Kumari" },
+      { role: "President", name: "Ajit Kumar Mishra" },
+      { role: "Treasurer", name: "Devendar Chaudhary" },
     ],
   },
-  { title: "Legal Team", members: ["Legal Head", "Legal Advisors"] },
+  {
+    title: "Board Members",
+    description:
+      "Board members supporting governance with field insight and institutional stewardship.",
+    members: [
+      { role: "Board Member", name: "Azzmatun Nisha" },
+      { role: "Board Member", name: "Divyanshu Bhushan" },
+      { role: "Board Member", name: "Vishav Raj" },
+    ],
+  },
 ];
 
 export const workAreas = [
