@@ -167,9 +167,20 @@ export const milestones = [
 ];
 
 export const founderMessage = [
-  "It gives me immense satisfaction to reflect on the journey of Mahila Jagriti Sansthan, which began in 1993 with a simple yet powerful vision to empower women, protect children, and support the most marginalized sections of society.",
-  "As we continue this journey, we remain dedicated to building a society where women are empowered, children are safe and educated, and every individual has the opportunity to live with dignity and hope.",
+  "Dear Friends and Supporters,",
+  "It gives me immense satisfaction to reflect on the journey of Mahila Jagriti Sansthan, which began in 1993 with a simple yet powerful vision to empower women, protect children, and support the most marginalized sections of society. What started as a small initiative with a few committed individuals has today grown into a dedicated grassroots organization working across several districts of Bihar.",
+  "Over the past three decades, our work has focused on addressing the challenges faced by women and children in rural communities. Through skill development programs, awareness campaigns, educational initiatives, and community mobilization, we have strived to create opportunities for women to become self-reliant and for children to access their fundamental right to education and protection. Our efforts have also extended to areas such as health awareness, environmental protection, livelihood promotion, and disaster relief, always guided by the belief that sustainable development must be inclusive and community-driven.",
+  "The progress we have achieved would not have been possible without the support of community members, volunteers, partners, and organizations who share our commitment to social justice and equality. Their cooperation and trust have strengthened our mission and enabled us to expand our initiatives to reach more communities in need.",
+  "As we continue this journey, Mahila Jagriti Sansthan remains dedicated to building a society where women are empowered, children are safe and educated, and every individual has the opportunity to live with dignity and hope. I invite all well-wishers, partners, and supporters to join us in this mission of creating positive and lasting change.",
 ];
+
+export const founderClosing = "Warm regards,";
+
+export const founderSignature = {
+  name: "Indira Kumari",
+  title: "Founder & Secretary",
+  org: "Mahila Jagriti Sansthan",
+};
 
 export const visionText =
   "To build a just, inclusive, and empowered society where women, children, and marginalized communities live with dignity, equality, and access to education, opportunities, and sustainable livelihoods.";
@@ -187,23 +198,26 @@ export const presenceDistricts = [
 
 export const teamSections = [
   {
-    title: "Executive Leadership",
+    title: "Governing Body",
     description:
       "Core office bearers guiding strategy, accountability, and long-term mission delivery.",
     members: [
       { role: "Founder / Secretary", name: "Indira Kumari" },
       { role: "President", name: "Ajit Kumar Mishra" },
+      // { role: "Director", name: "Coming Soon" },
       { role: "Treasurer", name: "Devendar Chaudhary" },
-    ],
-  },
-  {
-    title: "Board Members",
-    description:
-      "Board members supporting governance with field insight and institutional stewardship.",
-    members: [
       { role: "Board Member", name: "Azzmatun Nisha" },
       { role: "Board Member", name: "Divyanshu Bhushan" },
       { role: "Board Member", name: "Vishav Raj" },
+    ],
+  },
+  {
+    title: "Legal Team",
+    description:
+      "Legal guidance and advisory support for child rights, women protection, and institutional compliance.",
+    members: [
+      // { role: "Legal Head", name: "Coming Soon" },
+      // { role: "Legal Advisor", name: "Coming Soon" },
     ],
   },
 ];
@@ -389,3 +403,65 @@ export const paymentDetails = {
   purpose: "Women empowerment and child education programs",
   upiUri: "upi://pay?pa=mahilajagriti@upi&pn=Mahila%20Jagriti%20Sansthan&tn=Donation"
 };
+
+// Stats with icons and contextual description for the homepage impact band
+export const statsDetailed = [
+  {
+    value: "30+",
+    label: "Years of Service",
+    icon: "🕐",
+    context: "Active since 1993",
+  },
+  {
+    value: "15,000+",
+    label: "Women Empowered",
+    icon: "♀",
+    context: "Through skills, SHGs & livelihood",
+  },
+  {
+    value: "3,500+",
+    label: "Children Rescued",
+    icon: "✦",
+    context: "From labour, trafficking & exploitation",
+  },
+  {
+    value: "1,000+",
+    label: "Self-Help Groups",
+    icon: "❡",
+    context: "Formed across Bihar districts",
+  },
+  {
+    value: "100+",
+    label: "Volunteers",
+    icon: "◆",
+    context: "Community & field workers",
+  },
+];
+
+// Testimonials from program beneficiaries (placeholder — replace with verified quotes)
+export const testimonials = [
+  {
+    quote:
+      "After joining the self-help group, I started saving money for the first time. The skill training from MJS changed my life — I now run a small stitching business from home.",
+    name: "Rekha Devi",
+    role: "SHG Member",
+    program: "Skill Development Program",
+    location: "Darbhanga",
+  },
+  {
+    quote:
+      "MJS staff came to our village and helped bring my daughter back to school. They spoke with our family and helped us understand why her education matters for her future.",
+    name: "Ram Prasad",
+    role: "Parent",
+    program: "Girls' Education Campaign",
+    location: "Madhubani",
+  },
+  {
+    quote:
+      "The Baal Panchayat gave children like me a platform to speak up about our rights. I now help other children understand that they deserve to be in school, not in the fields.",
+    name: "Rohit Kumar",
+    role: "Baal Panchayat Member",
+    program: "Child Rights Initiative",
+    location: "Samastipur",
+  },
+];

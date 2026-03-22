@@ -11,6 +11,8 @@ import {
   aboutJourney,
   aboutOrgIntro,
   contactDetails,
+  founderClosing,
+  founderSignature,
   founderMessage,
   gallerySections,
   getInvolvedItems,
@@ -24,11 +26,16 @@ import {
   presenceDistricts,
   projectPrograms,
   stats,
+  statsDetailed,
   supportingPartners,
   teamSections,
+  testimonials,
   visionText,
   workAreas,
 } from "./content";
+import { ProgramCard } from "./components/ProgramCard";
+import { TestimonialsBlock } from "./components/TestimonialsBlock";
+import { CTABanner } from "./components/CTABanner";
 
 function yearNow() {
   return new Date().getFullYear();
@@ -61,52 +68,79 @@ function TimelineCard({ item }) {
 
 function HomePage() {
   const [statsRef, statsVisible] = useScrollReveal();
-  const [ribbonRef, ribbonVisible] = useScrollReveal();
-  const [priorityRef, priorityVisible] = useScrollReveal();
-  const [approachRef, approachVisible] = useScrollReveal();
-
-  const homeApproach = [
-    {
-      title: "Listen First",
-      text: "We begin with community dialogue to understand local priorities and barriers affecting women and children.",
-    },
-    {
-      title: "Build Skills And Access",
-      text: "Field teams connect families with education support, legal awareness, and livelihood opportunities.",
-    },
-    {
-      title: "Sustain Through Partnerships",
-      text: "We work with institutions and local groups so outcomes continue beyond individual programs.",
-    },
-  ];
+  const [founderRef, founderVisible] = useScrollReveal();
+  const [programsRef, programsVisible] = useScrollReveal();
+  const [testimonialsRef, testimonialsVisible] = useScrollReveal();
 
   return (
     <>
-      <header className="hero" id="home">
+      {/* ---- HERO: split layout with founder portrait ---- */}
+      <header className="hero hero-split" id="home">
         <div className="hero-blob-1" aria-hidden="true" />
         <div className="hero-blob-2" aria-hidden="true" />
-        <div className="hero-overlay" />
-        <div className="shell hero-content">
-          <p className="eyebrow">By Women, For Women</p>
-          <h1>
-            Empowering Women. Protecting Children. Building Inclusive
-            Communities.
-          </h1>
-          <p>{homeIntro}</p>
-          <div className="hero-actions">
-            <NavLink to="/get-involved" className="cta-link">
-              Get Involved
-            </NavLink>
-            <NavLink to="/our-work" className="cta-link ghost">
-              Explore Our Work
-            </NavLink>
+        <div className="shell hero-inner">
+          <div className="hero-text">
+            <p className="eyebrow">By Women, For Women · Since 1993</p>
+            <h1>
+              Empowering Women.
+              <br />
+              Protecting Children.
+            </h1>
+            <p className="hero-lead">
+              Since 1993, Mahila Jagriti Sansthan has worked alongside
+              communities across Bihar —{" "}
+              <strong>rescuing 3,500+ children</strong> from exploitation and{" "}
+              <strong>empowering 15,000+ women</strong> with skills, rights, and
+              dignity.
+            </p>
+            <div className="hero-actions">
+              <NavLink to="/payment-qr" className="cta-link">
+                Donate Now
+              </NavLink>
+              <NavLink to="/our-work" className="cta-link ghost">
+                Explore Our Work
+              </NavLink>
+            </div>
+            <div className="hero-trust-bar" aria-label="Trust indicators">
+              <span className="hero-trust-item">&#10003; Registered since 1993</span>
+              <span className="hero-trust-item">&#10003; Societies Registration Act, 1860</span>
+              <span className="hero-trust-item">&#10003; 30+ years active</span>
+            </div>
+          </div>
+
+          <div className="hero-portrait" aria-hidden="true">
+            <div className="hero-portrait-frame">
+              <img
+                src={founderImage}
+                alt=""
+                className="hero-portrait-img"
+                loading="eager"
+                width="340"
+                height="420"
+              />
+              <div className="hero-portrait-label">
+                <strong>Mrs. Indira Kumari</strong>
+                <span>Founder &amp; Secretary, MJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="hero-stat-strip" aria-label="Key impact figures">
+          <div className="shell hero-stat-inner">
+            {stats.map((s) => (
+              <div key={s.label} className="hero-stat-block">
+                <strong>{s.value}</strong>
+                <span>{s.label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </header>
 
+      {/* ---- PARTNER RIBBON ---- */}
       <section
-        ref={ribbonRef}
-        className={`shell home-ribbon reveal${ribbonVisible ? " in-view" : ""}`}
+        className="shell home-ribbon"
         aria-label="Institutional collaborations"
       >
         <p className="home-ribbon-label">Trusted collaborations</p>
@@ -119,68 +153,163 @@ function HomePage() {
         </div>
       </section>
 
+      {/* ---- PROGRAMS: 3 image cards ---- */}
       <Section
-        id="impact"
-        eyebrow="Impact"
-        title="Decades of Grassroots Impact"
-        subtitle="Built through persistent fieldwork, partnerships, and community trust across Bihar."
+        id="home-programs"
+        eyebrow="What We Do"
+        title="From the Ground Up"
+        subtitle="Three decades of work across women&#8217;s rights, child protection, and community livelihoods across Bihar."
       >
         <div
-          ref={statsRef}
-          className={`stat-grid${statsVisible ? " stagger" : ""}`}
+          ref={programsRef}
+          className={`home-programs-grid${programsVisible ? " stagger" : ""}`}
         >
-          {stats.map((stat) => (
-            <article key={stat.label} className="stat-card">
-              <h3>{stat.value}</h3>
-              <p>{stat.label}</p>
-            </article>
-          ))}
+          <ProgramCard
+            image={teamAwarenessImage}
+            imageAlt="MJS team conducting an awareness program with community members"
+            title="Women Empowerment"
+            description="Through self-help groups, skill training, and financial inclusion, we have helped 15,000+ women build independent and dignified lives."
+            outcomes={[
+              "Vocational skill training",
+              "SHG formation &amp; support",
+              "Entrepreneurship development",
+            ]}
+            href="/our-work"
+            accent="primary"
+          />
+          <ProgramCard
+            image={grassrootsImage}
+            imageAlt="MJS field team engaging with villagers at a grassroots community program in Bihar"
+            title="Child Rights &amp; Protection"
+            description="We work alongside families and institutions to rescue children from exploitation and ensure every child has access to education and safety."
+            outcomes={[
+              "Child labour eradication",
+              "Baal Panchayat leadership",
+              "Education access &amp; support",
+            ]}
+            href="/our-work"
+            accent="teal"
+          />
+          <ProgramCard
+            image={pakhiPadsImage}
+            imageAlt="Pakhi Pads for Dignity — hygiene program supporting women and girls in rural Bihar"
+            title="Livelihood &amp; Dignity"
+            description="From jute bag making to cutting and stitching — our programs build marketable skills and open pathways to sustainable income for women."
+            outcomes={[
+              "Jute bag production with NABARD",
+              "Cutting &amp; stitching training",
+              "Youth skills development",
+            ]}
+            href="/projects"
+            accent="green"
+          />
         </div>
       </Section>
 
+      {/* ---- IMPACT STATS BAND ---- */}
+      <div
+        ref={statsRef}
+        className="impact-stat-band"
+        aria-label="Impact statistics"
+      >
+        <div className="shell">
+          <p className="eyebrow home-stats-eyebrow">
+            Three Decades of Measurable Impact
+          </p>
+          <div className={`impact-stat-grid${statsVisible ? " stagger" : ""}`}>
+            {statsDetailed.map((s) => (
+              <div key={s.label} className="impact-stat-block">
+                <span className="isb-icon" aria-hidden="true">
+                  {s.icon}
+                </span>
+                <strong className="isb-value">{s.value}</strong>
+                <span className="isb-label">{s.label}</span>
+                {s.context && (
+                  <p className="isb-context">{s.context}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ---- FOUNDER STORY SPLIT ---- */}
+      <section className="section" id="home-founder">
+        <div className="shell">
+          <div
+            ref={founderRef}
+            className={`home-founder-split reveal${founderVisible ? " in-view" : ""}`}
+          >
+            <div className="home-founder-media">
+              <div className="home-founder-img-wrap">
+                <img
+                  src={founderImage}
+                  alt="Mrs. Indira Kumari, founder of Mahila Jagriti Sansthan, at a community gathering"
+                  loading="lazy"
+                  width="380"
+                  height="480"
+                />
+              </div>
+              <div className="home-founder-badges">
+                <span className="founder-badge">
+                  Juvenile Justice Board Member &middot; 2012&#x2013;2018
+                </span>
+                <span className="founder-badge">
+                  Child Welfare Committee Member &middot; 2020&#x2013;2023
+                </span>
+                <span className="founder-badge">
+                  Partner &#x2013; Bachpan Bachao Andolan
+                </span>
+              </div>
+            </div>
+
+            <div className="home-founder-text">
+              <p className="eyebrow">Founder&#x2019;s Story</p>
+              <h2>Three Decades Driven by Purpose</h2>
+              {founderMessage.map((paragraph, i) => (
+                <p
+                  key={paragraph}
+                  className={i === 0 ? "founder-lead" : ""}
+                >
+                  {paragraph}
+                </p>
+              ))}
+              <NavLink
+                to="/about-us"
+                className="cta-link ghost"
+                style={{ marginTop: "1.5rem" }}
+              >
+                Meet The Founder
+              </NavLink>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---- TESTIMONIALS ---- */}
       <Section
-        id="home-priorities"
-        eyebrow="What We Prioritize"
-        title="Work Areas Rooted In Community Needs"
-        subtitle="From child rights and education to livelihood resilience, each program is designed for local realities."
+        id="home-testimonials"
+        eyebrow="Voices from the Community"
+        title="Real Lives, Real Change"
+        subtitle="Hear from the people whose lives have been touched by Mahila Jagriti Sansthan."
       >
         <div
-          ref={priorityRef}
-          className={`program-grid home-priority-grid${priorityVisible ? " stagger" : ""}`}
+          ref={testimonialsRef}
+          className={`reveal${testimonialsVisible ? " in-view" : ""}`}
         >
-          {workAreas.slice(0, 3).map((area) => (
-            <article key={area.title} className="program-card home-priority-card">
-              <h3>{area.title}</h3>
-              <p>{area.text}</p>
-              <ul className="clean-list">
-                {area.initiatives.slice(0, 2).map((initiative) => (
-                  <li key={initiative}>{initiative}</li>
-                ))}
-              </ul>
-            </article>
-          ))}
+          <TestimonialsBlock items={testimonials} />
         </div>
       </Section>
 
-      <Section
-        id="home-approach"
-        eyebrow="How We Work"
-        title="A Practical Path From Awareness To Action"
-        subtitle="Our field model combines listening, capacity building, and long-term collaboration."
-      >
-        <div
-          ref={approachRef}
-          className={`about-grid home-approach-grid${approachVisible ? " stagger" : ""}`}
-        >
-          {homeApproach.map((step, index) => (
-            <article key={step.title} className="feature-card home-approach-card">
-              <p className="home-step-number">0{index + 1}</p>
-              <h3>{step.title}</h3>
-              <p>{step.text}</p>
-            </article>
-          ))}
-        </div>
-      </Section>
+      {/* ---- CTA BANNER ---- */}
+      <CTABanner
+        headline="Your support transforms lives in Bihar"
+        sub="For ₹1,000, one woman receives vocational skill training. For ₹5,000, a child gets education support for a year."
+        primaryCTA="Donate Now"
+        primaryHref="/payment-qr"
+        secondaryCTA="Learn How You Can Help"
+        secondaryHref="/get-involved"
+      />
     </>
   );
 }
@@ -292,6 +421,12 @@ function AboutPage() {
                 <p>{paragraph}</p>
               </blockquote>
             ))}
+            <p className="founder-signoff">{founderClosing}</p>
+            <p className="founder-signature">
+              <strong>{founderSignature.name}</strong>
+              <span>{founderSignature.title}</span>
+              <span>{founderSignature.org}</span>
+            </p>
           </div>
         </div>
 
@@ -313,20 +448,30 @@ function AboutPage() {
           ref={teamRef}
           className={`faces-grid${teamVisible ? " stagger" : ""}`}
         >
-          {teamSections.map((group) => (
-            <article key={group.title} className="face-card">
-              <h3>{group.title}</h3>
-              <p className="face-card-intro">{group.description}</p>
-              <ul className="clean-list face-member-list">
-                {group.members.map((member) => (
-                  <li key={`${group.title}-${member.name}`} className="face-member-item">
-                    <span className="face-role">{member.role}</span>
-                    <strong className="face-name">{member.name}</strong>
-                  </li>
-                ))}
-              </ul>
-            </article>
-          ))}
+          {teamSections.map((group) => {
+            const visibleMembers = group.members.filter(
+              (member) => member.name.toLowerCase() !== "coming soon",
+            );
+
+            if (visibleMembers.length === 0) {
+              return null;
+            }
+
+            return (
+              <article key={group.title} className="face-card">
+                <h3>{group.title}</h3>
+                <p className="face-card-intro">{group.description}</p>
+                <ul className="clean-list face-member-list">
+                  {visibleMembers.map((member) => (
+                    <li key={`${group.title}-${member.name}`} className="face-member-item">
+                      <span className="face-role">{member.role}</span>
+                      <strong className="face-name">{member.name}</strong>
+                    </li>
+                  ))}
+                </ul>
+              </article>
+            );
+          })}
         </div>
       </Section>
     </>
@@ -813,7 +958,9 @@ function GalleryPage() {
                 <span className="gallery-topic-icon" aria-hidden="true">
                   {topicIcons[i % topicIcons.length]}
                 </span>
-                <h3>{category}</h3>
+                <div className="gallery-topic-copy">
+                  <h3>{category}</h3>
+                </div>
               </article>
             );
           })}
@@ -871,6 +1018,13 @@ function MediaPage() {
 function ContactPage() {
   const [infoRef, infoVisible] = useScrollReveal();
   const [actionRef, actionVisible] = useScrollReveal();
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleContactSubmit = (e) => {
+    e.preventDefault();
+    setSubmitted(true);
+  };
+
   const quickActions = [
     {
       title: "Call The Team",
@@ -1003,6 +1157,53 @@ function ContactPage() {
           ))}
         </div>
       </Section>
+
+      <Section
+        id="contact-form"
+        eyebrow="Write To Us"
+        title="Send A Message"
+        subtitle="Share your query for partnership, volunteering, program support, or media requests."
+      >
+        <form className="contact-form-card" onSubmit={handleContactSubmit}>
+          <div className="contact-form-grid">
+            <label className="contact-field">
+              <span>Full Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label className="contact-field">
+              <span>Email Address</span>
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <label className="contact-field">
+            <span>Phone Number</span>
+            <input type="tel" name="phone" />
+          </label>
+          <label className="contact-field">
+            <span>Your Message</span>
+            <textarea
+              name="message"
+              rows="5"
+              required
+              placeholder="How would you like to collaborate with Mahila Jagriti Sansthan?"
+            />
+          </label>
+          <div className="contact-form-actions">
+            <button type="submit" className="cta-link">
+              Send Message
+            </button>
+            {submitted ? (
+              <p className="contact-form-note" role="status" aria-live="polite">
+                Thank you. Your message has been recorded. We will connect shortly.
+              </p>
+            ) : (
+              <p className="contact-form-note">
+                For urgent support, please use the phone or email options above.
+              </p>
+            )}
+          </div>
+        </form>
+      </Section>
     </>
   );
 }
@@ -1060,6 +1261,9 @@ function Header() {
 
   return (
     <header className={`site-header${scrolled ? " scrolled" : ""}${menuOpen ? " menu-open" : ""}`}>
+      <a href="#home-main" className="skip-to-content">
+        Skip to main content
+      </a>
       <div className="shell nav">
         <NavLink
           className="brand"
@@ -1142,7 +1346,7 @@ export default function App() {
   return (
     <HashRouter>
       <Header />
-      <main className="route-main">
+      <main className="route-main" id="home-main">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about-us" element={<AboutPage />} />

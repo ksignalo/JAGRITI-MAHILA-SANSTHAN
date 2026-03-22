@@ -1,69 +1,574 @@
-Website Structure for Mahila Jagriti Sansthan
-Home : DOCS\content\HOME.txt
-About Us : DOCS\content\ABOUT.txt
-Our Work : DOCS\content\OUR_WORK.txt
-Projects : DOCS\content\PROJECTS.txt
-Impact : DOCS\content\IMPACT.txt
+## Website Structure for Mahila Jagriti Sansthan
+
+Home
+About Us
+Our Work
+Projects
+Impact
 Partners
 Gallery
 Media
 Get Involved
 Contact
 
+# 1. Home Page
+
+Include:
+● Hero banner (Women empowerment / children education photo)
+● Tagline: “By Women, For Women”
+**Short introduction of MJS
+Mahila Jagriti Sansthan (MJS)** is a grassroots non-governmental organization
+established in **1993** by **Mrs. Indira Kumari** with the vision of empowering women
+and protecting the rights of children and marginalized communities. Registered
+under the **Societies Registration Act, 1860** , the organization has been working
+for more than **three decades** to promote social justice, education, livelihood
+opportunities, and community development. Since its inception, MJS has focused
+on key areas such as **women empowerment, child protection, education,
+skill development, environmental awareness, and community health**.
+Through training programs, awareness campaigns, and grassroots mobilization,
+the organization has helped thousands of women achieve economic
+independence and supported children in accessing education and protection
+from exploitation. Over the years, Mahila Jagriti Sansthan has collaborated with
+several government and civil society organizations including **NABARD, Bachpan
+Bachao Andolan, Kailash Satyarthi Children’s Foundation, and Nehru Yuva
+Kendra** , implementing impactful programs across multiple districts of Bihar. With
+
+
+its community-driven approach and long-standing experience, MJS continues to
+work towards building an **equitable, empowered, and inclusive society**.
+**● Key impact numbers**
+○ 32+ Years of Service
+○ 15,000+ Women Empowered
+○ 2000+ Children Rescued
+○ 1000+ SHG
+○ 100+ volunteers
+2.1 About the Organization
+Brief introduction of Mahila Jagriti Sansthan.
+The organization was established in 1993 and works for women empowerment, child
+education, human rights and community development.
+2.2 Our Journey
+The journey of **Mahila Jagriti Sansthan (MJS)** began in **1993** , when **Mrs. Indira
+Kumari** , along with a group of dedicated colleagues, founded the organization with a
+vision to bring meaningful change in the lives of women and marginalized communities.
+At a time when rural women had limited access to education, livelihood opportunities,
+and social participation, the founders recognized the urgent need for a grassroots
+platform that would empower women and protect the rights of children.
+The organization started its work in the rural areas of **Darbhanga and Madhubani
+districts of Bihar** , focusing primarily on **women’s empowerment and child
+education**. In the early years, Mahila Jagriti Sansthan concentrated on understanding
+the challenges faced by marginalized communities and mobilizing local people to
+actively participate in the development process. Through community meetings,
+awareness campaigns, and grassroots initiatives, the organization began addressing
+critical issues such as child labour, lack of education, gender inequality, and limited
+livelihood opportunities.
+As the organization gained trust and support from the community, its activities gradually
+expanded. Mahila Jagriti Sansthan initiated programs related to **skill development,
+health awareness, sanitation, environmental protection, and community rights**
+
+
+**advocacy**. Women were encouraged to form groups, participate in training programs,
+and develop income-generating activities that strengthened their economic
+independence and social confidence.
+Over the years, the impact of these initiatives led to a steady expansion of the
+organization’s work beyond its initial operational areas. Today, Mahila Jagriti Sansthan
+has implemented various development programs across several districts of Bihar
+including **Darbhanga, Madhubani, Saharsa, Supaul, Muzaffarpur, Motihari, Bhojpur,
+Buxar, Nawada, and Patna**. Through partnerships with government agencies, civil
+society organizations, and community institutions, the organization has reached
+thousands of women, children, and families in rural and marginalized communities.
+Over the past **three decades** , Mahila Jagriti Sansthan has grown from a small
+grassroots initiative into a recognized organization working for **women’s
+empowerment, child protection, education, and sustainable community
+development**. Despite challenges, the organization has remained committed to its core
+belief that real change begins at the community level.
+Today, Mahila Jagriti Sansthan continues its journey with the same spirit and dedication,
+working tirelessly to empower women, safeguard children’s rights, and build stronger
+and more inclusive communities across Bihar.
+
+###### Our Journey: Key Milestones
+
+1993 — Foundation of Mahila Jagriti Sansthan
+Mahila Jagriti Sansthan was founded by **Mrs. Indira Kumari** along with a group of
+dedicated social workers with the vision of empowering women and promoting child
+education among marginalized communities in rural Bihar.
+1996–1998 — Early Skill Development Initiatives
+The organization began conducting vocational training programs under
+government-supported initiatives such as **TRYSEM and DWCRA** , providing skill
+development opportunities to rural women and youth in Darbhanga district.
+
+
+2000 — Promotion of Girls’ Empowerment
+Mahila Jagriti Sansthan organized **Balika Mela programs** in collaboration with
+government agencies to promote girls’ education, confidence, and participation in social
+and educational activities.
+2002 — Child Rights and Baal Panchayat Initiative
+In collaboration with **Bachpan Bachao Andolan** , Mahila Jagriti Sansthan facilitated the
+formation of **Baal Panchayat and Baal Sansad** in villages of Darbhanga, encouraging
+children to participate in community decision-making and raising awareness against
+child labour.
+2008–2012 — Education Support Programs
+The organization implemented educational initiatives under the **Bihar Education
+Project** , establishing learning centers (Utpreran Kendra) to support children’s education
+and encourage school enrollment, particularly for girls.
+2014–2015 — Environmental Awareness Campaigns
+Mahila Jagriti Sansthan participated in the **National Environmental Awareness
+Campaign (NEAC)** supported by the Ministry of Environment, Government of India,
+organizing workshops and awareness programs on environmental protection and
+sustainability.
+2015 — Youth Skill Development Programs
+In partnership with **Centum Skill India** , the organization conducted skill development
+training programs for youth, enhancing their employability and livelihood opportunities.
+2017 — Flood Relief Campaign
+
+
+Mahila Jagriti Sansthan carried out relief and support activities in flood-affected villages
+of Darbhanga, providing essential supplies and assistance to vulnerable families.
+2019 — Girls’ Education and Child Protection Campaigns
+In collaboration with **Kailash Satyarthi Children’s Foundation and Bachpan Bachao
+Andolan** , the organization conducted awareness campaigns such as **“Girls March to
+School”** and legal awareness programs on child protection.
+2020 — COVID-19 Community Support
+During the COVID-19 pandemic, Mahila Jagriti Sansthan distributed essential supplies
+including food, masks, sanitizers, and educational materials to vulnerable families and
+children.
+2020 — Women Skill Development Programs
+With support from **Nehru Yuva Kendra** , the organization provided **cutting and
+stitching training** to rural women, helping them develop livelihood skills.
+2023 — Sustainable Livelihood Programs
+In collaboration with **NABARD** , Mahila Jagriti Sansthan organized **jute bag making
+training programs** for Self-Help Group (SHG) women, promoting eco-friendly
+entrepreneurship and sustainable income opportunities.
+Today — Continuing the Mission
+With over **30 years of grassroots experience** , Mahila Jagriti Sansthan continues to
+empower women, protect children’s rights, promote education, and support sustainable
+livelihoods across multiple districts of Bihar.
+
+
+2.3 Founder’s Message
+**Founder’s Message**
+Dear Friends and Supporters,
+It gives me immense satisfaction to reflect on the journey of **Mahila Jagriti Sansthan** ,
+which began in **1993** with a simple yet powerful vision—to empower women, protect
+children, and support the most marginalized sections of society. What started as a small
+initiative with a few committed individuals has today grown into a dedicated grassroots
+organization working across several districts of Bihar.
+Over the past three decades, our work has focused on addressing the challenges faced
+by women and children in rural communities. Through skill development programs,
+awareness campaigns, educational initiatives, and community mobilization, we have
+strived to create opportunities for women to become self-reliant and for children to
+access their fundamental right to education and protection. Our efforts have also
+extended to areas such as health awareness, environmental protection, livelihood
+promotion, and disaster relief, always guided by the belief that sustainable development
+must be inclusive and community-driven.
+The progress we have achieved would not have been possible without the support of
+community members, volunteers, partners, and organizations who share our
+commitment to social justice and equality. Their cooperation and trust have
+strengthened our mission and enabled us to expand our initiatives to reach more
+communities in need.
+As we continue this journey, Mahila Jagriti Sansthan remains dedicated to building a
+society where **women are empowered, children are safe and educated, and every
+individual has the opportunity to live with dignity and hope**. I invite all well-wishers,
+partners, and supporters to join us in this mission of creating positive and lasting
+change.
+Warm regards,
+**Indira Kumari**
+Founder & Secretary
+Mahila Jagriti Sansthan
+
+
+2.4 Vision
+
+###### Vision
+
+**To build a just, inclusive, and empowered society where women, children, and
+marginalized communities live with dignity, equality, and access to education,
+opportunities, and sustainable livelihoods.**
+Mahila Jagriti Sansthan envisions a community where women are economically
+independent, children are protected from exploitation and have access to quality
+education, and every individual participates actively in social and economic
+development. The organization strives to promote gender equality, social justice, and
+sustainable community development through collective action and grassroots
+empowerment.
+2.5 Mission
+
+##### Mission
+
+The mission of **Mahila Jagriti Sansthan (MJS)** is to empower women, protect the rights
+of children, and promote inclusive and sustainable development among marginalized
+communities. The organization works to strengthen the socio-economic status of
+women and disadvantaged groups through education, skill development, awareness
+programs, and community participation.
+Mahila Jagriti Sansthan is committed to promoting **gender equality and addressing
+gender-based violence** , while ensuring that women and girls live with dignity, safety,
+and equal opportunities. Through training, advocacy, legal awareness, and community
+mobilization, the organization works to create awareness about women’s rights, prevent
+exploitation and discrimination, and encourage social justice at the grassroots level.
+By collaborating with communities, government institutions, and partner organizations,
+Mahila Jagriti Sansthan strives to build a society where **women are empowered,
+children are protected, and every individual has the opportunity to live with
+dignity, equality, and security**.
+
+
+3. Our Work / Focus Areas
+
+### Women Empowerment
+
+Empowering women is at the core of Mahila Jagriti Sansthan’s mission. The
+organization works to enhance women’s socio-economic status by promoting skills,
+leadership, and financial independence.
+Our initiatives include:
+● **Skill Training Programs:** Training women in vocational skills to help them
+become economically independent.
+● **Self-Help Group (SHG) Development:** Formation and strengthening of women’s
+groups to promote savings, financial inclusion, and collective decision-making.
+● **Entrepreneurship Support:** Encouraging women to start small businesses and
+livelihood activities through guidance, training, and access to financial
+opportunities.
+These initiatives help women gain confidence, improve their livelihoods, and actively
+participate in community development.
+
+### Child Protection
+
+Mahila Jagriti Sansthan is committed to safeguarding children from exploitation, abuse,
+and neglect while promoting their rights, safety, and overall development. The
+organization works closely with communities, schools, and partner organizations to
+create a protective environment for children.
+Our child protection initiatives include:
+● **Child Labour Eradication:** Conducting awareness campaigns and community
+mobilization to prevent child labour and encourage families to prioritize
+education.
+● **Baal Panchayat:** Promoting child participation through child-led platforms where
+children learn democratic values, leadership, and the importance of community
+participation.
+● **Child Rights Awareness:** Organizing awareness programs and community
+meetings to educate parents, teachers, and communities about child rights and
+protection laws.
+
+
+Through these initiatives, Mahila Jagriti Sansthan aims to ensure that every child grows
+in a safe environment and has access to education and opportunities for a better future.
+
+#### Education
+
+Mahila Jagriti Sansthan believes that education is one of the most powerful tools for
+breaking the cycle of poverty and empowering children. The organization actively
+supports the education of children from marginalized communities, especially those who
+face barriers in accessing quality education.
+Key initiatives include:
+● **Free Educational Support Classes:** Mahila Jagriti Sansthan provides **free
+virtual learning support for children from Class 1 to Class 5** , with the support
+of **Adore India** , helping them strengthen their basic learning and academic skills.
+● **Educational Kits Distribution:** To encourage school participation and support
+children’s learning, the organization distributes **education kits including books,
+notebooks, pens, and pencils** to children from underprivileged communities.
+● **School Support Programs:** The organization also conducts awareness
+programs to encourage school enrollment and reduce dropout rates among
+children, particularly girls.
+Through these initiatives, Mahila Jagriti Sansthan strives to ensure that children from
+disadvantaged communities receive the educational support they need to build a
+brighter future.
+
+##### Gender Based Violence
+
+Gender-Based Violence Support and Prevention
+Mahila Jagriti Sansthan is committed to promoting gender equality and supporting
+women and girls who are victims of gender-based violence (GBV). The organization
+works to create safe spaces and provide assistance to women facing domestic violence,
+abuse, and discrimination.
+Mahila Jagriti Sansthan actively helps women survivors by providing guidance,
+awareness, and support to access legal and social protection mechanisms. The
+
+
+organization conducts awareness programs and community discussions to educate
+communities about women’s rights, gender equality, and the importance of preventing
+violence against women.
+Our key initiatives include:
+● Support to GBV Survivors: Assisting women who are victims of violence by
+providing guidance, counseling, and helping them access legal and social
+support services.
+● Awareness on Women’s Rights: Conducting awareness programs and
+community meetings to promote gender equality and prevent domestic violence
+and discrimination.
+● Legal Awareness Programs: Educating women about their legal rights and
+available support systems to seek justice and protection.
+
+###### Planned Shelter and Rehabilitation Support
+
+Mahila Jagriti Sansthan is also planning to establish a Shelter Home for women
+survivors of gender-based violence. The shelter will provide a safe and supportive
+environment for women in distress. During their stay, the organization plans to provide
+temporary accommodation, food, counseling, and skill development training, enabling
+survivors to rebuild their lives with dignity and independence.
+Through these initiatives, Mahila Jagriti Sansthan aims to support survivors of violence,
+promote gender justice, and create communities where women and girls can live free
+from fear, discrimination, and violence.
+
+##### Skill Development & Livelihood
+
+To improve economic opportunities for women and youth, Mahila Jagriti Sansthan
+conducts various livelihood and vocational training programs.
+Key programs include:
+● **Jute Bag Making Training:** Promoting eco-friendly livelihood opportunities for
+women.
+● **Cutting & Stitching Training:** Providing tailoring skills to women to support
+self-employment.
+● **Youth Skill Training:** Training youth in various skills to enhance their
+employability and income opportunities.
+
+
+### Environment & Sustainability
+
+Mahila Jagriti Sansthan actively promotes environmental awareness and sustainable
+development practices within communities.
+Our initiatives include:
+● **Renewable Energy Awareness:** Educating communities about sustainable
+energy practices and environmental conservation.
+● **Environmental Campaigns:** Organizing awareness programs and community
+activities to promote environmental protection.
+
+##### Disaster Relief & Community Support
+
+During times of crisis, Mahila Jagriti Sansthan works to support affected communities
+and provide immediate relief.
+Key activities include:
+● **Flood Relief Campaigns:** Providing emergency assistance and support to
+flood-affected families in rural areas.
+● **COVID-19 Relief Support:** Distribution of essential supplies such as food,
+masks, sanitizers, and educational materials to vulnerable communities during
+the pandemic.
+
+4. Projects & Programs
+
+## Projects & Programs
+
+Over the past three decades, **Mahila Jagriti Sansthan (MJS)** has implemented a wide
+range of development projects and community-based programs aimed at empowering
+women, protecting children, and improving the socio-economic conditions of
+marginalized communities. Through collaborations with government agencies, civil
+society organizations, and community institutions, the organization has successfully
+
+
+carried out impactful initiatives in the fields of education, livelihood, child protection, and
+community development.
+Below are some of the key projects and programs implemented by Mahila Jagriti
+Sansthan:
+**TRYSEM Training Programs**
+In the early years of its work, Mahila Jagriti Sansthan implemented skill development
+initiatives under the **TRYSEM (Training of Rural Youth for Self Employment)
+program** in collaboration with the Government of Bihar. These training programs were
+organized in different blocks of Darbhanga district to equip rural women and youth with
+vocational skills that could help them generate income and improve their livelihoods.
+Through these initiatives, participants received practical training and guidance to
+develop employable skills, enabling them to become economically self-reliant and
+contribute to their family’s income.
+**Baal Panchayat Initiative (2002)**
+In partnership with **Bachpan Bachao Andolan** , Mahila Jagriti Sansthan facilitated the
+formation of **Baal Panchayat and Baal Sansad** in villages of Darbhanga district in
+
+2002. This initiative aimed to promote child participation and leadership by creating
+platforms where children could voice their concerns and participate in discussions
+related to education, child rights, and community issues.
+The Baal Panchayat initiative also played an important role in raising awareness about
+**child labour, child rights, and the importance of education** , encouraging
+communities to protect children and ensure their access to schooling.
+**Girls March to School Campaign**
+Mahila Jagriti Sansthan actively participated in the **“Girls March to School” campaign**
+in collaboration with the **Kailash Satyarthi Children’s Foundation and the 100 Million
+Campaign**. This initiative aimed to promote access to education for girls and encourage
+communities to ensure that girls remain in school.
+Through community mobilization, awareness programs, and advocacy efforts, the
+campaign helped highlight the importance of girls’ education and inspired families to
+support the educational aspirations of their daughters.
+
+
+**Skill Development Programs**
+Skill development has been one of the major focus areas of Mahila Jagriti Sansthan.
+The organization has conducted several training programs for women and youth to
+enhance their employability and livelihood opportunities.
+These programs include training in:
+● Cutting and stitching
+● Handicrafts and small-scale production
+● Jute bag making and eco-friendly products
+● Vocational skills for rural youth
+Through these training initiatives, the organization has enabled many women and young
+people to develop sustainable livelihood opportunities and improve their economic
+independence.
+
+###### COVID-19 Relief Campaign
+
+During the **COVID-19 pandemic** , Mahila Jagriti Sansthan actively supported vulnerable
+communities affected by the crisis. The organization distributed essential relief materials
+including **food supplies, masks, sanitizers, and educational materials** to families
+and children in need.
+These relief activities helped provide immediate support to families facing economic
+hardships during the pandemic and demonstrated the organization’s commitment to
+community welfare during emergencies.
+
+###### Jute Bag Training Program with NABARD
+
+Mahila Jagriti Sansthan organized **jute bag making training programs** for women
+from Self-Help Groups (SHGs) in collaboration with **NABARD**. This initiative aimed to
+promote eco-friendly livelihood opportunities while strengthening women’s economic
+independence.
+Through hands-on training sessions, women learned the techniques of designing and
+producing jute bags, enabling them to develop small-scale income-generating activities.
+The initiative also promoted the use of environmentally sustainable products and
+supported women’s entrepreneurship.
+
+
+Through these projects and programs, Mahila Jagriti Sansthan continues to empower
+women, protect children’s rights, promote education, and support sustainable
+livelihoods in rural and marginalized communities.
+
+5. Impact / Achievements
+
+## Impact & Achievements
+
+● Over the past three decades, **Mahila Jagriti Sansthan (MJS)** has been working
+at the grassroots level to empower marginalized communities, particularly
+women and children. Through community participation, skill development
+initiatives, child protection programs, and awareness campaigns, the
+organization has created meaningful and sustainable impact across several
+districts of Bihar.
+● Our work reflects a long-standing commitment to social justice, gender equality,
+and community empowerment. The following highlights demonstrate the impact
+of our initiatives over the years.
+**30+ Years of Grassroots Service**
+● Since its establishment in **1993** , Mahila Jagriti Sansthan has been continuously
+working to uplift marginalized communities. With more than **three decades of
+experience** , the organization has developed strong relationships with
+communities and institutions, enabling it to design and implement effective
+grassroots development programs.
+● Through consistent engagement and community participation, MJS has built trust
+and credibility among rural communities and continues to play an active role in
+addressing social challenges related to women empowerment, education, and
+child protection.
+
+
+**Empowering 15,000+ Women through Skill Development and Livelihood
+Programs**
+● One of the major achievements of Mahila Jagriti Sansthan has been its
+contribution to women’s empowerment. Through skill development training,
+entrepreneurship support, and Self-Help Group (SHG) initiatives, the
+organization has empowered **more than 15,000 women** over the years.
+● Training programs in areas such as **cutting and stitching, jute bag making,
+handicrafts, and other livelihood activities** have helped women develop
+practical skills and become economically independent. Many women trained
+through these programs have been able to start small businesses or contribute to
+their family’s income, thereby improving their social and economic status.
+**Rescuing and Protecting 3,500+ Children from Child Labour**
+● Mahila Jagriti Sansthan has played a significant role in **child protection and
+child labour eradication efforts**. In collaboration with organizations such as
+**Bachpan Bachao Andolan** , the organization has contributed to rescuing and
+rehabilitating **more than 3,500 children** from situations of child labour,
+exploitation, and trafficking.
+● Through community awareness campaigns, child rights advocacy, and initiatives
+like **Baal Panchayat and Baal Sansad** , the organization has worked to promote
+children’s participation and ensure that children have access to education and a
+safe environment.
+**Promoting Education for Children from Marginalized Communities**
+● Education has been a central focus of Mahila Jagriti Sansthan’s work. The
+organization has supported children’s education through various initiatives
+including **Utpreran Kendra learning centers, awareness programs, and
+distribution of educational materials such as books, notebooks, and
+stationery**.
+● Additionally, with the support of partner organizations, the organization provides
+**free virtual educational support for children from Class 1 to Class 5** , helping
+them strengthen their foundational learning and academic performance.
+● These initiatives aim to encourage school enrollment, reduce dropout rates, and
+ensure that children from disadvantaged backgrounds receive the support they
+need to continue their education.
+
+
+**Community Development Across Multiple Districts of Bihar**
+● Mahila Jagriti Sansthan has implemented development programs across several
+districts of Bihar including **Darbhanga, Madhubani, Saharsa, Supaul,
+Muzaffarpur, Motihari, Bhojpur, Buxar, Nawada, and Patna**.
+● Through partnerships with government agencies, civil society organizations, and
+local communities, the organization has conducted numerous programs related
+to **women empowerment, child protection, environmental awareness, health
+education, skill development, and disaster relief**.
+● These initiatives have positively impacted thousands of families and contributed
+to the overall development of rural communities.
+**Disaster Relief and Emergency Support**
+● Mahila Jagriti Sansthan has also played an active role in supporting communities
+during emergencies. During natural disasters such as floods and crises such as
+the **COVID-19 pandemic** , the organization provided essential relief support
+including **food supplies, masks, sanitizers, and educational materials** to
+vulnerable families.
+● These efforts helped communities cope with immediate challenges while
+reinforcing the organization’s commitment to humanitarian assistance.
+**Continuing the Journey of Social Change**
+● With more than **30 years of experience and a strong grassroots presence** ,
+Mahila Jagriti Sansthan continues to work toward empowering women, protecting
+children’s rights, and promoting sustainable community development.
+● The organization remains committed to expanding its impact through
+partnerships, innovative programs, and community participation, striving to build
+a society where every individual has the opportunity to live with dignity, equality,
+and hope.
+
 
 6. Our Presence
 Map showing districts:
-● Darbhanga
-● Madhubani
-● Samastipur
-● Muzaffarpur
-● Patna
+    ● Darbhanga
+    ● Madhubani
+    ● Samastipur
+    ● Muzaffarpur
+    ● Patna
 These are listed in Our Presence section.
-7. Our Team
-Create two sections:
+**7. Our Team
+Create two sections:**
 Governing Body
-● Founder / Secretary
-● President
-● Director
-● Treasurer
-● Board Members
+    ● Founder / Secretary
+    ● President
+    ● Director
+    ● Treasurer
+    ● Board Members
 Legal Team
-● Legal Head
-● Legal Advisors
+    ● Legal Head
+    ● Legal Advisors
 These are mentioned on pages showing Governing Body and Legal Team.
-8. Partners & Collaborations
+**8. Partners & Collaborations**
 Logos of:
-● Bachpan Bachao Andolan
-● Kailash Satyarthi Children’s Foundation
-● NABARD
-● Nehru Yuva Kendra
-● Government of Bihar
+    ● Bachpan Bachao Andolan
+    ● Kailash Satyarthi Children’s Foundation
+    ● NABARD
+    ● Nehru Yuva Kendra
+    ● Government of Bihar
+
+
 ● CEED
 ● Adore India
 These are listed as Supporting Partners.
-9. Media & Publications
+
+**9. Media & Publications**
 Include:
-● News coverage
-● Events
-● Reports
-● Campaign photos
-10. Gallery
+    ● News coverage
+    ● Events
+    ● Reports
+    ● Campaign photos
+**10. Gallery**
 Sections:
-● Programs
-● Trainings
-● Women SHG meetings
-● Campaigns
-● Awards
-11. Get Involved
+    ● Programs
+    ● Trainings
+    ● Women SHG meetings
+    ● Campaigns
+    ● Awards
+**11. Get Involved**
 Include:
-● Donate
-● Volunteer/Internship
-● Partner with us
-● CSR collaboration
-12. Contact Us
+    ● Donate
+    ● Volunteer/Internship
+    ● Partner with us
+    ● CSR collaboration
+
+
+###### 12. Contact Us
+
 Include:
-● Address: H. No.92, Chhapki Paddi, Laxmisagar, Darbhanga-846009
-● Phone number: 9431498549/9654940376
+● Address: H. No.92, Chhapki Paddi, Laxmisagar, Darbhanga-
+● Phone number: 9431498549/
 ● Email: mjs357999@gmail.com
 ● Google map
 ● Contact form
+
+
