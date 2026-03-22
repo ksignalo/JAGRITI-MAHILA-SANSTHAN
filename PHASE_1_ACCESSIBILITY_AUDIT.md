@@ -1,7 +1,7 @@
 # Mahila Jagriti Sansthan – Phase 1.2 Accessibility Audit
 
-**Standard:** WCAG 2.1 Level AA  
-**Date Started:** March 22, 2026  
+**Standard:** WCAG 2.1 Level AA
+**Date Started:** March 22, 2026
 **Status:** In Progress
 
 ---
@@ -299,8 +299,8 @@ Test with screen reader:
 ## Issues Found & Fixes Applied
 
 ### Issue 1: Color Contrast on Accent Gold (#C19A6B)
-**Status:** ⚠️ WARNING  
-**Finding:** Accent color at 3.12:1 ratio on white (below WCAG AA 4.5:1 for normal text)  
+**Status:** ⚠️ WARNING
+**Finding:** Accent color at 3.12:1 ratio on white (below WCAG AA 4.5:1 for normal text)
 **Fix Applied:** Use accent only for:
 - Highlighted backgrounds (not text)
 - Decorative elements
@@ -308,22 +308,22 @@ Test with screen reader:
 **Recommendation:** Replace with primary saffron (#D4542F) for text that needs contrast
 
 ### Issue 2: Focus Ring Visibility
-**Status:** ✅ FIXED  
-**Finding:** Old focus outline was thin and low-contrast  
+**Status:** ✅ FIXED
+**Finding:** Old focus outline was thin and low-contrast
 **Fix Applied:**
 - Replaced `outline: 3px solid var(--ring)` with `box-shadow: var(--shadow-focus)`
 - New focus ring: 3px cream background, 6px primary saffron shadow
 - Applies consistently to buttons, links, form inputs, nav items
 
 ### Issue 3: Touch Target Size
-**Status:** ✅ FIXED  
+**Status:** ✅ FIXED
 **Fix Applied:**
 - Added `button, a[href], [role="button"]` with `min-height: 3rem` (48px)
 - Ensures minimum WCAG AAA touch target size on mobile
 
 ### Issue 4: Missing Alt Text
-**Status:** ⏳ PENDING  
-**Finding:** All images need alt text audit  
+**Status:** ⏳ PENDING
+**Finding:** All images need alt text audit
 **Next Step:** Check each page and add/verify alt text on:
 - Founder photo: "Indira Kumari, founder of Mahila Jagriti Sansthan"
 - Program photos: Descriptive of activity

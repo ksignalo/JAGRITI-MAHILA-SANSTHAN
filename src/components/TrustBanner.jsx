@@ -1,9 +1,9 @@
 /**
  * TrustBanner.jsx
- * 
+ *
  * Displays board members and leadership team information.
  * Creates trust through visible governance and leadership transparency.
- * 
+ *
  * Props:
  * - members: Array<{ name, role, photo, bio, order }>
  * - title: string (e.g., "Board of Directors")
@@ -18,13 +18,13 @@ export function TrustBanner({ members = [], title = "Board of Directors", subtit
           <h2>{title}</h2>
           {subtitle && <p className="section-subtitle">{subtitle}</p>}
         </div>
-        
+
         <div className="trust-members-grid">
           {members.map((member) => (
             <article key={member.name} className="trust-member-card">
               <div className="trust-member-photo">
-                <img 
-                  src={member.photo} 
+                <img
+                  src={member.photo}
                   alt={`${member.name}, ${member.role}`}
                   loading="lazy"
                 />

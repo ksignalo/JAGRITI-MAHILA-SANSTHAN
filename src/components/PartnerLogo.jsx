@@ -1,9 +1,9 @@
 /**
  * PartnerLogo.jsx
- * 
+ *
  * Displays partner organizations and their logos.
  * Creates trust through visible partnerships with established organizations.
- * 
+ *
  * Props:
  * - partners: Array<{ name, logo, url, description }>
  * - title: string (e.g., "Our Partners")
@@ -18,7 +18,7 @@ export function PartnerLogo({ partners = [], title = "Our Partners", subtitle })
           <h2>{title}</h2>
           {subtitle && <p className="section-subtitle">{subtitle}</p>}
         </div>
-        
+
         <div className="partner-logo-grid">
           {partners.map((partner) => (
             <a
@@ -29,8 +29,8 @@ export function PartnerLogo({ partners = [], title = "Our Partners", subtitle })
               className="partner-logo-link"
               title={partner.description}
             >
-              <img 
-                src={partner.logo} 
+              <img
+                src={partner.logo}
                 alt={`${partner.name} logo`}
                 loading="lazy"
               />

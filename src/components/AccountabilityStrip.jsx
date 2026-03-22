@@ -1,9 +1,9 @@
 /**
  * AccountabilityStrip.jsx
- * 
+ *
  * Displays key accountability and transparency information.
  * Creates immediate trust through visible registration, legal status, and financial transparency.
- * 
+ *
  * Props:
  * - registrationNumber: string (e.g., "12345678")
  * - registrationAct: string (e.g., "Societies Registration Act, 1860")
@@ -27,7 +27,7 @@ export function AccountabilityStrip({
         <div className="accountability-label">
           <span className="eyebrow">Legal & Financial Transparency</span>
         </div>
-        
+
         <div className="accountability-items">
           {/* Registration */}
           <div className="accountability-item">
@@ -40,7 +40,7 @@ export function AccountabilityStrip({
               {registrationDate && <>Since {registrationDate}</>}
             </p>
           </div>
-          
+
           {/* Tax Status */}
           {taxExemptStatus && (
             <div className="accountability-item">
@@ -48,7 +48,7 @@ export function AccountabilityStrip({
               <p><strong>{taxExemptStatus}</strong></p>
             </div>
           )}
-          
+
           {/* Audit */}
           {lastAuditYear && (
             <div className="accountability-item">
@@ -56,7 +56,7 @@ export function AccountabilityStrip({
               <p>Latest audit completed: <strong>{lastAuditYear}</strong></p>
             </div>
           )}
-          
+
           {/* Annual Report Link */}
           {annualReportUrl && (
             <div className="accountability-item">
@@ -69,7 +69,7 @@ export function AccountabilityStrip({
             </div>
           )}
         </div>
-        
+
         <p className="accountability-footer">
           We are committed to transparency and accountability in all our operations.
           Questions? <a href="/contact" className="text-link">Contact us</a>.

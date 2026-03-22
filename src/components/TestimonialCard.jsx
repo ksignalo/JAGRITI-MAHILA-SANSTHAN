@@ -1,9 +1,9 @@
 /**
  * TestimonialCard.jsx
- * 
+ *
  * Displays individual testimonials with attribution to program and beneficiary.
  * Creates trust through authentic voices of community members.
- * 
+ *
  * Props:
  * - quote: string (the testimonial text)
  * - attribution: string (person's name)
@@ -26,17 +26,17 @@ export function TestimonialCard({
         <blockquote className="testimonial-quote">
           <p>"{quote}"</p>
         </blockquote>
-        
+
         <div className="testimonial-attribution">
           {photo && (
-            <img 
-              src={photo} 
+            <img
+              src={photo}
               alt={attribution}
               className="testimonial-photo"
               loading="lazy"
             />
           )}
-          
+
           <div className="testimonial-info">
             <strong className="testimonial-name">{attribution}</strong>
             {role && <p className="testimonial-role">{role}</p>}

@@ -1,9 +1,9 @@
 /**
  * ImpactMetric.jsx
- * 
+ *
  * Displays individual impact statistics with context.
  * Animates numbers on scroll into view.
- * 
+ *
  * Props:
  * - icon: React.ReactNode (emoji, SVG component, or HTML element)
  * - value: string (e.g., "15,000+")
@@ -39,28 +39,18 @@ export function ImpactMetric({
   }, [isVisible, animated, value]);
 
   return (
-    <article 
+    <article
       ref={ref}
       className={`impact-metric impact-metric--${color} ${className}`}
     >
-      <div className="impact-metric-icon">
-        {icon}
-      </div>
-      
+      <div className="impact-metric-icon">{icon}</div>
+
       <div className="impact-metric-content">
-        <div className="impact-metric-value">
-          {displayValue}
-        </div>
-        
-        <div className="impact-metric-label">
-          {label}
-        </div>
-        
-        {context && (
-          <p className="impact-metric-context">
-            {context}
-          </p>
-        )}
+        <div className="impact-metric-value">{displayValue}</div>
+
+        <div className="impact-metric-label">{label}</div>
+
+        {context && <p className="impact-metric-context">{context}</p>}
       </div>
     </article>
   );

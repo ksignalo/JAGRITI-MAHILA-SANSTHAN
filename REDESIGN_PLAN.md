@@ -2,9 +2,9 @@
 
 ## Project Foundation
 
-**Organization:** Mahila Jagriti Sansthan (MJS)  
-**Mission:** Women empowerment, child rights, community development  
-**Founded:** 1993 by Mrs. Indira Kumari  
+**Organization:** Mahila Jagriti Sansthan (MJS)
+**Mission:** Women empowerment, child rights, community development
+**Founded:** 1993 by Mrs. Indira Kumari
 **Impact Metrics (Non-negotiable):**
 - 3,500+ children rescued and rehabilitated
 - 15,000+ women empowered
@@ -17,20 +17,20 @@
 ## Current State Assessment
 
 ### What Exists
-✅ **Technical foundation:** React + Vite with React Router v6  
-✅ **Content structure:** 7 pages defined (Home, About Us, Our Work, Projects, Impact, Partners, Gallery, Contact)  
-✅ **Visual system:** Warm NGO palette (terracotta primary, teal secondary, earthy backgrounds)  
-✅ **Typography:** Merriweather (headings), Nunito (body)  
+✅ **Technical foundation:** React + Vite with React Router v6
+✅ **Content structure:** 7 pages defined (Home, About Us, Our Work, Projects, Impact, Partners, Gallery, Contact)
+✅ **Visual system:** Warm NGO palette (terracotta primary, teal secondary, earthy backgrounds)
+✅ **Typography:** Merriweather (headings), Nunito (body)
 ✅ **Assets:** Logo, founder photo, 3 program images, milestone data
 
 ### Critical Gaps
-❌ **Trust signals:** No accountability, transparency, or partnership indicators visible  
-❌ **Donor journey:** No clear funnel or donation friction reduction  
-❌ **Adaptive components:** Hero lacks impact framing; stats underutilized; testimonials missing  
-❌ **Accessibility:** No documented WCAG AA compliance checks  
-❌ **Mobile-first:** Layout system not responsive-design-first  
-❌ **Behavioral clarity:** No form validation UX, unclear CTAs, missing empty states  
-❌ **Mission voice:** Generic NGO tone instead of specific Indira Kumari leadership  
+❌ **Trust signals:** No accountability, transparency, or partnership indicators visible
+❌ **Donor journey:** No clear funnel or donation friction reduction
+❌ **Adaptive components:** Hero lacks impact framing; stats underutilized; testimonials missing
+❌ **Accessibility:** No documented WCAG AA compliance checks
+❌ **Mobile-first:** Layout system not responsive-design-first
+❌ **Behavioral clarity:** No form validation UX, unclear CTAs, missing empty states
+❌ **Mission voice:** Generic NGO tone instead of specific Indira Kumari leadership
 ❌ **Micro-interactions:** No meaningful motion or progressive disclosure patterns
 
 ---
@@ -59,7 +59,7 @@
 - **Secondary:** Forest green (#2D6A64) — wisdom, sustainability, growth
 - **Accent:** Cream/off-white (#FAF7F2) — approachability, clarity
 - **Neutrals:** Charcoal (#2A2520) for text; gray (#8B8680) for secondary info
-- **Typography:** 
+- **Typography:**
   - Headings: Playfair Display (serif; authoritative, editorial)
   - Body: Source Sans 3 (accessible, open sans-serif)
   - Accent labels: Tracked uppercase (trust markers)
@@ -517,26 +517,26 @@ Test all pages at breakpoints:
 ## Trust Architecture Signals
 
 ### Before Users Donate/Act
-✅ **Founder story** (Indira Kumari photo, 30-year commitment)  
-✅ **Board governance** (names, roles visible)  
-✅ **Partnership logos** (Bachpan Bachao Andolan, Kailash Satyarthi Foundation)  
-✅ **Registration proof** (legal status, Societies Act 1860)  
-✅ **Impact numbers** (contextual: "3,500 children rescued" not "large impact")  
-✅ **Testimonials** (real names, program, outcomes)  
-✅ **Transparency** (link to annual report / financials)  
-✅ **Contact accessibility** (phone, email, address, map)  
+✅ **Founder story** (Indira Kumari photo, 30-year commitment)
+✅ **Board governance** (names, roles visible)
+✅ **Partnership logos** (Bachpan Bachao Andolan, Kailash Satyarthi Foundation)
+✅ **Registration proof** (legal status, Societies Act 1860)
+✅ **Impact numbers** (contextual: "3,500 children rescued" not "large impact")
+✅ **Testimonials** (real names, program, outcomes)
+✅ **Transparency** (link to annual report / financials)
+✅ **Contact accessibility** (phone, email, address, map)
 
 ### During Donation
-✅ **Security signals** ("256-bit encryption", "Secure payment partner")  
-✅ **Clear amounts** (no guessing; preset buttons)  
-✅ **Real-time validation** (not alarming errors; helpful suggestions)  
-✅ **Confirmation email** (proof of transaction)  
+✅ **Security signals** ("256-bit encryption", "Secure payment partner")
+✅ **Clear amounts** (no guessing; preset buttons)
+✅ **Real-time validation** (not alarming errors; helpful suggestions)
+✅ **Confirmation email** (proof of transaction)
 
 ### After Donation
-✅ **Prompt response** (within 24 hours for inquiries)  
-✅ **Impact update** (e.g., "Your ₹1,000 supported skill training for 2 women")  
-✅ **Tax receipt** (if applicable)  
-✅ **Voluntary opt-in** (newsletter, but not mandatory)  
+✅ **Prompt response** (within 24 hours for inquiries)
+✅ **Impact update** (e.g., "Your ₹1,000 supported skill training for 2 women")
+✅ **Tax receipt** (if applicable)
+✅ **Voluntary opt-in** (newsletter, but not mandatory)
 
 ---
 
@@ -608,16 +608,16 @@ Track these to measure impact:
 
 ## References
 
-- **SKILL Mandate:** Mahila Jagriti Creative Designer Executionist  
-- **Requirements Source:** DOCS/requirements.md  
-- **Current Codebase:** React + Vite, React Router v6  
-- **Accessibility Standard:** WCAG 2.1 Level AA  
-- **Visual Inspiration:** Earthy editorial (Playfair + Source Sans 3, saffron + forest)  
-- **Team Leadership:** Indira Kumari (founder), board governance focus  
+- **SKILL Mandate:** Mahila Jagriti Creative Designer Executionist
+- **Requirements Source:** DOCS/requirements.md
+- **Current Codebase:** React + Vite, React Router v6
+- **Accessibility Standard:** WCAG 2.1 Level AA
+- **Visual Inspiration:** Earthy editorial (Playfair + Source Sans 3, saffron + forest)
+- **Team Leadership:** Indira Kumari (founder), board governance focus
 - **Impact Numbers:** 3,500+ children rescued, 15,000+ women empowered, 30+ years
 
 ---
 
-**Redesign Champion:** GitHub Copilot (Claude Haiku 4.5)  
-**Phase Plan Created:** March 22, 2026  
+**Redesign Champion:** GitHub Copilot (Claude Haiku 4.5)
+**Phase Plan Created:** March 22, 2026
 **Execution Start:** Ready for Week 1 kickoff
